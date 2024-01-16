@@ -1,5 +1,6 @@
 body {
     margin: 64px 80px;
+    background-color: #f4f4f4;
 }
 
 p {
@@ -15,17 +16,21 @@ p {
 }
 
 .card_w_h3 {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
     max-width: 800px;
 }
 
 .card {
-    background-color: #efefef;
+    background-color: #ffffff;
     padding: 4px 24px;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.04);
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16)
 }
+
+
+
 
 
 .button {
@@ -38,5 +43,10 @@ p {
     border: 0px;
     padding: 12px 24px;
     border-radius: 4px;
-
+}
+.button:hover {
+    background-color: blue;
+}
+.button:focus {
+    background-color: rgb(16, 16, 122);
 }
